@@ -26,15 +26,13 @@ Invalid directions and invalid temperature inputs produce an error message.
 
 ## How to Compile and Run
 
-Open Ubuntu and navigate to the project folder.
-
-To automatically compile and run all four acceptance tests:
-
-`bash test.sh`
-
-If all tests pass, the terminal displays:
-
-`All acceptance tests passed`
+Open Ubuntu and navigate to the project folder using cd /mnt/c/Users/wisar/week02-mini-project. 
+Compile the program by entering 
+mkdir -p build followed by g++ -std=c++17 -Wall -Wextra -pedantic src/main.cpp -o build/app. 
+Once compiled, run the calculator using ./build/app. 
+Enter C 0 to convert Celsius to Fahrenheit or F 32 to convert Fahrenheit to Celsius. 
+To run all four automated tests, enter bash test.sh. 
+If everything works correctly, the terminal will display All acceptance tests passed.
 
 ## Testing
 
