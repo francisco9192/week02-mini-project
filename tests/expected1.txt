@@ -1,1 +1,1 @@
-Wrong Output
+32 F
